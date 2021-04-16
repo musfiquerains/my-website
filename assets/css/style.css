@@ -64,7 +64,7 @@ body {
 .main-nav ul {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 25%;
     align-items: center;
 }
 
@@ -77,7 +77,7 @@ body {
     text-decoration: none;
     padding: 0.8rem 0;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -85,17 +85,8 @@ body {
     border-bottom: 4px solid var(--red);
 }
 
-.burger div {
-    width: 20px;
-    height: 3px;
-    background-color: #fff;
-    margin-bottom: 3px;
 
-}
 
-.burger {
-    display: none;
-}
 
 
 
@@ -372,9 +363,9 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 4px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 
-    font-weight: bold;
+    font-weight: 300;
 }
 
 
@@ -762,7 +753,6 @@ body {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     background-color: #2098D1;
-    background-color: #2098d1;
     color: white;
     border-radius: 8px;
 }
@@ -871,6 +861,7 @@ body {
 
 #role p {
     font-size: 1rem;
+    font-weight: 300;
     margin: 0.5rem 0 2rem 0;
 }
 
@@ -895,6 +886,11 @@ body {
     margin: 6rem 4rem 6rem 0;
     text-transform: uppercase;
 
+}
+
+#project-dis p {
+    font-weight: 300;
+    line-height: 1.6rem;
 }
 
 #large-img-3 .container {
