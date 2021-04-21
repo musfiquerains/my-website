@@ -95,7 +95,7 @@ body {
 #main-section {
     background-color: var(--dark);
     color: #fff;
-    height: 100vh;
+
 
 }
 
@@ -103,14 +103,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7rem;
+    margin-top: 0rem;
+    height: 100vh;
 
 }
 
 #main-section .main-head .header h1 {
 
     font-size: 60px;
-    line-height: 4rem;
     margin-bottom: 1rem;
     font-weight: 500;
 }
@@ -119,7 +119,8 @@ body {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1rem;
-    padding-right: 4rem;
+    padding-right: 8rem;
+
 }
 
 #main-section .header .core-skills {
@@ -135,6 +136,10 @@ body {
     color: #fff;
     font-weight: 700;
     border-radius: 4px;
+}
+
+#main-section .header {
+    margin-top: 4rem;
 }
 
 /* Bounce To Right */
@@ -340,8 +345,7 @@ body {
 }
 
 #port-section .card-main .card-body {
-    margin-top: 2.5rem;
-    margin-left: 2rem;
+    margin: 2rem;
 }
 
 #port-section .card-body h3 {
@@ -910,9 +914,7 @@ body {
 
 /* Media Queries */
 @media screen and (max-width: 1440px) {
-    #main-section {
-        height: 120vh;
-    }
+
 
 
     /* Portfolio Description Page */
@@ -1032,12 +1034,116 @@ body {
 
 
 @media screen and (max-width: 1024px) {
+
+    /* Main-section */
+    #main-section {
+        background-color: var(--dark);
+        color: #fff;
+
+
+    }
+
+    #main-section .main-head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0rem;
+        height: 100vh;
+
+    }
+
     #main-section .main-head .header h1 {
 
         font-size: 40px;
-        line-height: 3rem;
         margin-bottom: 1rem;
         font-weight: 500;
+    }
+
+    #main-section .header p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+
+    }
+
+    #main-section .header .core-skills {
+        font-weight: 600;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #main-section .header .btn-1 {
+        text-decoration: none;
+        padding: 0.6rem 2rem;
+        background-color: var(--blue);
+        color: #fff;
+        font-weight: 700;
+        border-radius: 4px;
+    }
+
+    /* Bounce To Right */
+    .hvr-bounce-to-right-1 {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        position: relative;
+        -webkit-transition-property: color;
+        transition-property: color;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+    }
+
+    .hvr-bounce-to-right-1:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--red);
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: 0 50%;
+        transform-origin: 0 50%;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+        -webkit-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+        border-radius: 4px;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+    }
+
+    .hvr-bounce-to-right-1:hover,
+    .hvr-bounce-to-right-1:focus,
+    .hvr-bounce-to-right-1:active {
+        color: white;
+    }
+
+    .hvr-bounce-to-right-1:hover:before,
+    .hvr-bounce-to-right-1:focus:before,
+    .hvr-bounce-to-right-1:active:before {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+        -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+        transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    }
+
+    #main-section .banner img {
+        width: 70%;
+    }
+
+    #main-section .banner {
+        margin-right: -12rem;
+    }
+
+    /* Process Section */
+
+    #pro-section .ico-box {
+        padding: 2rem;
     }
 
     #pro-section .ico-box img {
@@ -1056,15 +1162,16 @@ body {
     }
 
     #pro-section .wir img {
-        width: 90%;
-        margin-top: -0.5rem;
-        margin-bottom: -0.4rem;
+        width: 115%;
+        margin-top: -0.1rem;
+        margin-bottom: 0.5rem;
+        margin-left: -0.5rem;
     }
 
     #pro-section .ui-de img {
-        width: 130%;
+        width: 100%;
         margin-left: -1rem;
-        margin-top: 1.4rem;
+        margin-top: -1rem;
     }
 
     #pro-section .ui-de h4 {
@@ -1072,9 +1179,9 @@ body {
     }
 
     #pro-section .dev-l img {
-        width: 75%;
-        margin-top: -1rem;
-        margin-bottom: -1rem;
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 
 
@@ -1113,7 +1220,7 @@ body {
 
 
     #section-about .about-main {
-        max-width: 40%;
+        max-width: 50%;
     }
 
     #section-about .about-ico img {
@@ -1213,7 +1320,7 @@ body {
     .bk {
         font-size: 2rem;
         color: #fff;
-        margin-bottom: 1.9rem;
+        margin-bottom: 1.4rem;
         display: block;
 
 
@@ -1226,13 +1333,19 @@ body {
     }
 
     .img-wrap-1 h1 {
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         color: #fff;
         margin-top: 2rem;
 
     }
 
+    #project-dis p {
+        margin: 2rem 0;
+    }
+
 }
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -1252,7 +1365,6 @@ body {
     #main-section {
         background-color: var(--dark);
         color: #fff;
-        height: 100vh;
 
     }
 
@@ -1267,9 +1379,12 @@ body {
     #main-section .main-head .header h1 {
 
         font-size: 40px;
-        line-height: 2.9rem;
         margin-bottom: 1rem;
         font-weight: 500;
+    }
+
+    #main-section .banner {
+        display: none;
     }
 
     /* Process Section */
@@ -1385,7 +1500,7 @@ body {
     }
 
     #port-section .card-main .card-body {
-        margin: 0;
+        margin: 2rem;
     }
 
     #port-section .card-body h3 {
@@ -1405,7 +1520,7 @@ body {
     #port-section .btn-2 {
         background-color: var(--blue);
         color: #fff;
-        padding: 5px 20px;
+        padding: 10px 20px;
         text-decoration: none;
         border-radius: 4px;
         font-size: 0.9rem;
@@ -1722,7 +1837,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 7rem;
+
         text-align: center;
 
     }
@@ -1730,7 +1845,7 @@ body {
     #main-section .main-head .header h1 {
 
         font-size: 30px;
-        line-height: 3rem;
+
         margin-bottom: 1rem;
         font-weight: 500;
     }
@@ -1743,10 +1858,7 @@ body {
     }
 
 
-    #main-section .banner img {
-        width: 80%;
-        display: none;
-    }
+
 
     #main-section .header {
         display: flex;
@@ -2084,7 +2196,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+
         align-items: center;
         text-align: center;
     }
