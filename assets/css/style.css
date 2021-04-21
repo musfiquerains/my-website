@@ -234,20 +234,18 @@ body {
 }
 
 #pro-section .icon-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
     text-align: center;
-    margin: 2rem 0;
-}
+    margin: 4rem 0;
 
-#pro-section .ico-box {
-    padding: 3rem;
+
 }
 
 
 #pro-section .ico-box img {
-    width: 80%;
+    width: 50%;
 }
 
 #pro-section .ico-box h4 {
@@ -261,7 +259,9 @@ body {
     font-weight: 400;
 }
 
-#pro-section .wir img {
+#pro-section .ui-de img {}
+
+/* #pro-section .wir img {
     width: 80%;
     margin-top: 0.8rem;
     margin-bottom: 0.4rem;
@@ -282,7 +282,7 @@ body {
 
 #pro-section .res img {
     width: 75%;
-}
+} */
 
 /* Portfolio Section */
 #port-section {
@@ -1143,7 +1143,7 @@ body {
     /* Process Section */
 
     #pro-section .ico-box {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     #pro-section .ico-box img {
@@ -1161,33 +1161,33 @@ body {
         font-weight: 400;
     }
 
-    #pro-section .wir img {
-        width: 115%;
-        margin-top: -0.1rem;
-        margin-bottom: 0.5rem;
-        margin-left: -0.5rem;
-    }
+    /* #pro-section .wir img {
+    width: 115%;
+    margin-top: -0.1rem;
+    margin-bottom: 0.5rem;
+    margin-left: -0.5rem;
+}
 
-    #pro-section .ui-de img {
-        width: 100%;
-        margin-left: -1rem;
-        margin-top: -1rem;
-    }
+#pro-section .ui-de img {
+    width: 100%;
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
 
-    #pro-section .ui-de h4 {
-        margin-top: -0.6rem;
-    }
+#pro-section .ui-de h4 {
+    margin-top: -0.6rem;
+}
 
-    #pro-section .dev-l img {
-        width: 100%;
-        margin-top: 1.5rem;
-        margin-bottom: 0.5rem;
-    }
+#pro-section .dev-l img {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
 
 
-    #pro-section .res img {
-        width: 100%;
-    }
+#pro-section .res img {
+    width: 100%;
+} */
 
     /* Portfolio section */
     #port-section .card {
@@ -1405,25 +1405,31 @@ body {
         text-transform: uppercase;
     }
 
-
-
-
     #pro-section .icon-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
         text-align: center;
-        flex-direction: column;
-        margin: 2rem 0;
-    }
+        margin: 4rem 0;
 
-    #pro-section .ico-box {
-        padding: 3rem;
+
     }
 
 
     #pro-section .ico-box img {
-        width: 80%;
+        width: 50%;
+    }
+
+
+
+
+    #pro-section .ico-box {
+        padding: 1rem;
+    }
+
+
+    #pro-section .ico-box img {
+        width: 50%;
     }
 
     #pro-section .ico-box h4 {
@@ -1437,24 +1443,24 @@ body {
         font-weight: 400;
     }
 
-    #pro-section .wir img {
-        width: 70%;
+    /* #pro-section .wir img {
+    width: 70%;
 
-    }
+}
 
-    #pro-section .ui-de img {
-        width: 60%;
-    }
+#pro-section .ui-de img {
+    width: 60%;
+}
 
 
-    #pro-section .dev-l img {
-        width: 75%;
-        margin-bottom: 1rem
-    }
+#pro-section .dev-l img {
+    width: 75%;
+    margin-bottom: 1rem
+}
 
-    #pro-section .res img {
-        width: 75%;
-    }
+#pro-section .res img {
+    width: 75%;
+} */
 
     /* Portfolio Section */
 
@@ -1894,29 +1900,33 @@ body {
         font-size: 14px;
     }
 
-
-
-
     #pro-section .icon-section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
         text-align: center;
-        flex-direction: column;
-        margin: 2rem 0;
-    }
+        margin: 4rem 0;
 
-    #pro-section .ico-box {
-        padding: 3rem;
+
     }
 
 
     #pro-section .ico-box img {
-        width: 80%;
+        width: 50%;
+    }
+
+
+    #pro-section .ico-box {
+        padding: 1rem;
+    }
+
+
+    #pro-section .ico-box img {
+        width: 50%;
     }
 
     #pro-section .ico-box h4 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 500;
         margin: 0.8rem 0;
     }
@@ -1926,24 +1936,24 @@ body {
         font-weight: 400;
     }
 
-    #pro-section .wir img {
-        width: 70%;
+    /* #pro-section .wir img {
+    width: 70%;
 
-    }
+}
 
-    #pro-section .ui-de img {
-        width: 70%;
-    }
+#pro-section .ui-de img {
+    width: 70%;
+}
 
 
-    #pro-section .dev-l img {
-        width: 75%;
-        margin-bottom: 1rem
-    }
+#pro-section .dev-l img {
+    width: 75%;
+    margin-bottom: 1rem
+}
 
-    #pro-section .res img {
-        width: 75%;
-    }
+#pro-section .res img {
+    width: 75%;
+} */
 
     /* Portfolio Section */
 
