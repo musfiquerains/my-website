@@ -43,7 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 0;
+    margin: 2rem 0 1rem 0;
 
 }
 
@@ -53,8 +53,7 @@ body {
 
 .main-nav .logo {
 
-    font-size: 18px;
-    font-weight: 700;
+    width: 20%;
 }
 
 .main-nav ul {
@@ -108,7 +107,7 @@ body {
 
     font-size: 60px;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 #main-section .header p {
@@ -130,7 +129,7 @@ body {
     padding: 0.6rem 2rem;
     background-color: var(--blue);
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 4px;
 }
 
@@ -863,7 +862,7 @@ body {
 
 #role p {
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0.5rem 0 2rem 0;
 }
 
@@ -890,7 +889,7 @@ body {
 }
 
 #project-dis p {
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.6rem;
 }
 
@@ -1142,7 +1141,7 @@ body {
     #port-section .card {
         display: flex;
         flex-direction: row;
-        background-color: var(--dark);
+        background-color: #713045;
         color: #fff;
         margin: 1.5rem 0;
         width: 90%;
@@ -1452,7 +1451,7 @@ body {
     #port-section .card {
         display: flex;
         flex-direction: column;
-        background-color: var(--dark);
+        background-color: #713045;
         color: #fff;
         margin: 1.5rem 0;
         width: 70%;
@@ -1939,7 +1938,7 @@ body {
     #port-section .card {
         display: flex;
         flex-direction: column;
-        background-color: var(--dark);
+        background-color: #713045;
         color: #fff;
         margin: 1.5rem 0;
         width: 90%;
