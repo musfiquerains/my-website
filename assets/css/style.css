@@ -889,7 +889,7 @@ body {
 }
 
 #project-dis p {
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.6rem;
 }
 
@@ -900,7 +900,7 @@ body {
 }
 
 #large-img-3 {
-    background: var(--blue);
+    background: #333;
 }
 
 #large-img-3 img {
@@ -1017,9 +1017,7 @@ body {
         align-items: center;
     }
 
-    #large-img-3 {
-        background: var(--blue);
-    }
+
 
     #large-img-3 img {
         padding: 0 6rem;
