@@ -1,6 +1,8 @@
 @import url('CSS RESET.css');
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); */
 @import url('montserrat.css');
+@import url('animate.css');
+
 
 * {
     box-sizing: border-box;
@@ -28,6 +30,7 @@ img {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 
 }
 
@@ -36,6 +39,8 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
+
+
 
 
 /* Navbar */
@@ -52,7 +57,6 @@ body {
 }
 
 .main-nav .logo {
-
     width: 20%;
 }
 
@@ -61,6 +65,7 @@ body {
     justify-content: space-around;
     width: 25%;
     align-items: center;
+    z-index: 100;
 }
 
 
@@ -794,123 +799,7 @@ body {
     text-transform: uppercase;
 }
 
-/* Portfolio Description Page */
-#big-img-section-1 {
-    background: linear-gradient(to right, rgb(0, 159, 255), rgb(236, 47, 75));
-    height: 60vh;
-}
 
-#big-img-section-1 .logo {
-    color: #fff;
-}
-
-.img-wrap-1 {
-
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
-.bk {
-    font-size: 2rem;
-    color: #fff;
-    margin-bottom: 4rem;
-    display: block;
-
-
-}
-
-.img-wrap-1 p {
-    font-size: 1.2rem;
-    color: #fff;
-    margin: 1.5rem 0;
-}
-
-.img-wrap-1 h1 {
-    font-size: 4.5rem;
-    color: #fff;
-    margin-top: 3rem;
-
-}
-
-.btn-g {
-    text-decoration: none;
-    color: #fff;
-    background: var(--blue);
-    padding: 5px 20px;
-    text-align: center;
-    font-weight: 600;
-    border-radius: 6px;
-    display: block;
-    font-size: 14px;
-}
-
-#role .container {
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
-    align-items: center;
-}
-
-#role {
-    margin: 3rem 0;
-}
-
-#role h3 {
-    font-size: 2rem;
-    font-weight: 500;
-    margin: 2rem 0 0.5rem 0;
-    text-transform: uppercase;
-}
-
-#role p {
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0.5rem 0 2rem 0;
-}
-
-#large-img img {
-    width: 100%;
-
-
-}
-
-#project-dis .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-    align-items: center;
-}
-
-#project-dis h3 {
-    font-size: 2rem;
-    font-weight: 500;
-    margin: 6rem 4rem 6rem 0;
-    text-transform: uppercase;
-
-}
-
-#project-dis p {
-    font-weight: 400;
-    line-height: 1.6rem;
-}
-
-#large-img-3 .container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#large-img-3 {
-    background: #333;
-}
-
-#large-img-3 img {
-    padding: 0 4rem;
-    margin: 4rem 0;
-}
 
 /* Media Queries */
 @media screen and (max-width: 1440px) {
@@ -919,8 +808,8 @@ body {
 
     /* Portfolio Description Page */
     #big-img-section-1 {
-        background: linear-gradient(to right, rgb(0, 159, 255), rgb(236, 47, 75));
-        height: 80vh;
+        background: #333;
+        height: 75vh;
     }
 
     #big-img-section-1 .logo {
@@ -933,28 +822,26 @@ body {
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-    }
-
-    .bk {
-        font-size: 2rem;
-        color: #fff;
-        margin-bottom: 2rem;
-        display: block;
-
+        margin-bottom: 4rem;
+        margin-left: 8rem;
+        margin-top: 3rem;
 
     }
+
 
     .img-wrap-1 p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #fff;
-        margin: 1rem 0;
+        margin: 0.1rem 0 1.7rem 0;
     }
 
     .img-wrap-1 h1 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         color: #fff;
-        margin-top: 2rem;
+        margin-top: 1rem;
         font-weight: 500;
+        z-index: 30;
+
 
     }
 
@@ -962,23 +849,29 @@ body {
         text-decoration: none;
         color: #fff;
         background: var(--blue);
-        padding: 15px 20px;
+        padding: 11px 35px;
         text-align: center;
         font-weight: 600;
-        border-radius: 6px;
+        border-radius: 4px;
         display: block;
         font-size: 14px;
     }
 
+
+
     #role .container {
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        width: 70%;
         align-items: center;
+
+
     }
 
     #role {
         margin: 3rem 0;
+
+
     }
 
     #role h3 {
@@ -990,6 +883,7 @@ body {
 
     #role p {
         font-size: 1rem;
+        font-weight: 400;
         margin: 0.5rem 0 2rem 0;
     }
 
@@ -1003,7 +897,7 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        width: 70%;
+        width: 80%;
         align-items: center;
     }
 
@@ -1015,20 +909,55 @@ body {
 
     }
 
+    #project-dis p {
+        font-weight: 400;
+        line-height: 1.6rem;
+    }
+
     #large-img-3 .container {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
-
+    #large-img-3 {
+        background: #333;
+    }
 
     #large-img-3 img {
-        padding: 0 6rem;
+        padding: 0 4rem;
         margin: 4rem 0;
     }
 
+
 }
+
+@media screen and (max-width: 1366px) {
+
+    /* Portfolio Description Page */
+    #big-img-section-1 {
+        background: #333;
+        height: 60vh;
+    }
+
+
+
+    .img-wrap-1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        margin-left: 8rem;
+        margin-top: 3rem;
+
+    }
+
+}
+
+
+
 
 
 @media screen and (max-width: 1024px) {
@@ -1255,43 +1184,23 @@ body {
     /* portfolio description */
 
     #big-img-section-1 {
-        background: linear-gradient(to right, rgb(0, 159, 255), rgb(236, 47, 75));
+        background: #333;
         height: 80vh;
-    }
-
-    .img-wrap-1 {
-
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-
-    .bk {
-        font-size: 2rem;
-        color: #fff;
-        margin-bottom: 1.4rem;
-        display: block;
-
-
-    }
-
-    .img-wrap-1 p {
-        font-size: 1.2rem;
-        color: #fff;
-        margin: 0.8rem 0;
     }
 
     .img-wrap-1 h1 {
         font-size: 2.5rem;
-        color: #fff;
-        margin-top: 2rem;
-
     }
 
-    #project-dis p {
-        margin: 2rem 0;
+    .img-wrap-1 {
+        margin-left: 6rem;
     }
+
+
+
+
+
+
 
 }
 
@@ -1696,7 +1605,7 @@ body {
 
     /* Portfolio Description Page */
     #big-img-section-1 {
-        background: linear-gradient(to right, rgb(0, 159, 255), rgb(236, 47, 75));
+        background: #333;
         height: 80vh;
     }
 
@@ -1708,48 +1617,29 @@ body {
 
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
-    }
-
-    .bk {
-        font-size: 1.5rem;
-        color: #fff;
-        margin-bottom: 2rem;
-        display: block;
-
+        text-align: center;
+        margin-left: 0;
 
     }
 
-    .img-wrap-1 p {
-        font-size: 1.2rem;
-        color: #fff;
-        margin: 1rem 0;
-    }
+
+
 
     .img-wrap-1 h1 {
         font-size: 2.5rem;
         color: #fff;
-        margin-top: 2rem;
+        margin-top: 1rem;
 
     }
 
-    .btn-g {
-        text-decoration: none;
-        color: #fff;
-        background: var(--blue);
-        padding: 15px 20px;
-        text-align: center;
-        font-weight: 600;
-        border-radius: 6px;
-        display: block;
-        font-size: 14px;
-    }
+
 
     #role .container {
         display: flex;
         justify-content: space-between;
-        width: 80%;
+        width: 90%;
         align-items: center;
     }
 
@@ -1782,6 +1672,7 @@ body {
         justify-content: space-around;
         width: 90%;
         align-items: center;
+        padding: 3rem;
     }
 
     #project-dis h3 {
@@ -1799,11 +1690,11 @@ body {
     }
 
     #large-img-3 {
-        background: var(--blue);
+        background: #333;
     }
 
     #large-img-3 img {
-        padding: 0 6rem;
+        padding: 0 1rem;
         margin: 4rem 0;
     }
 
@@ -2109,18 +2000,11 @@ body {
         line-height: 2rem;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: column;
     }
 
-    .bk {
-        font-size: 1.3rem;
-        color: #fff;
-        margin-bottom: 3rem;
-        display: block;
 
-
-    }
 
     .img-wrap-1 p {
         font-size: 1rem;
