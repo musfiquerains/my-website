@@ -381,6 +381,7 @@ body {
     border-radius: 4px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    font-family: inherit;
 }
 
 .card:nth-child(even) img {
@@ -599,6 +600,12 @@ body {
 }
 
 
+#section-contact .form-level {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1.5rem;
+}
+
 #section-contact {
     background-color: var(--dark);
     color: #fff;
@@ -606,12 +613,14 @@ body {
 
 #section-contact .contact-main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin: 1.5rem 0;
+
 }
 
 
-#section-contact .contact-img {
+/* #section-contact .contact-img {
     width: 400px;
     height: 300px;
     position: relative;
@@ -631,11 +640,11 @@ body {
     left: 65%;
     border-radius: 10px;
 
-}
+} */
 
 #section-contact .contact-form form {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 
 
@@ -678,6 +687,7 @@ body {
     margin-bottom: 2rem;
     cursor: pointer;
     border: none;
+    font-family: inherit;
 }
 
 /* Footer */
@@ -1212,27 +1222,7 @@ body {
     }
 
 
-    #section-contact .contact-img {
-        width: 300px;
-        height: 200px;
-        position: relative;
 
-    }
-
-    #section-contact .contact-img img {
-        border-radius: 10px;
-    }
-
-    .contact-img .rounded {
-        background-color: var(--red);
-        width: 150px;
-        height: 130px;
-        position: absolute;
-        top: 50%;
-        left: 65%;
-        border-radius: 10px;
-
-    }
 
     /* main image section */
 
