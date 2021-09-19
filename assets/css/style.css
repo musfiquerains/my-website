@@ -212,6 +212,90 @@ body {
     animation-delay: 0.6s;
 }
 
+/* My Values Section */
+
+#main-value {
+    background: #002651;
+    color: #fff;
+    position: relative;
+    padding: 4rem 0;
+}
+
+#main-value .container {
+    display: flex;
+    justify-content: center;
+    align-items: ;
+
+
+}
+
+#main-value img {
+    width: 20%;
+    position: absolute;
+}
+
+#main-value .image-1 {
+    position: absolute;
+    top: 55%;
+    left: 74%;
+    z-index: 20;
+    box-shadow: 40px 40px 90px -10px #000;
+}
+
+#main-value .image-2 {
+    position: absolute;
+    z-index: 30;
+    top: 20%;
+    left: 68%;
+    box-shadow: 40px 40px 90px -10px #000;
+}
+
+#main-value .image-3 {
+    position: absolute;
+    z-index: 40;
+    top: 40%;
+    left: 51%;
+    box-shadow: 40px 40px 90px -10px #000;
+}
+
+#main-value .col-1 {
+    padding-right: 38rem;
+}
+
+#main-value h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+#main-value .small-line {
+    width: 50px;
+    height: 4px;
+    background-color: var(--red);
+    margin-bottom: 1rem;
+}
+
+#main-value .p-1 {
+    font-size: 1rem;
+    line-height: 25px;
+    margin-bottom: 2.5rem;
+}
+
+#main-value .b-line div {
+    display: flex;
+    margin: 1rem 0;
+}
+
+#main-value .b-line p {
+    margin-left: 0.5rem;
+}
+
+#main-value .b-line {
+    margin-bottom: 6rem;
+}
+
+
 /* Process Section */
 
 
@@ -388,66 +472,6 @@ body {
     order: 2;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-}
-
-/* Values */
-
-#section-value .header-value {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-}
-
-#section-value .header-value h3 {
-    font-size: 2.2rem;
-    font-weight: 600;
-    margin: 4.5rem 0 1rem 0;
-    text-transform: uppercase;
-}
-
-
-
-#section-value .header-value .small-line {
-    width: 50px;
-    height: 4px;
-    background-color: var(--red);
-    margin-bottom: 1rem;
-}
-
-#section-value .value-main {
-    display: flex;
-    margin: 4rem 0;
-}
-
-#section-value .val-list div {
-    display: flex;
-    align-items: center;
-    margin: 1rem 0;
-
-}
-
-#section-value .val-list img {
-    width: 10%;
-    margin-right: 1rem;
-}
-
-#section-value .val-list p {
-    font-weight: 600;
-}
-
-#section-value .val-img img {
-    width: 90%;
-}
-
-#section-value .val-img {
-    margin-right: 2rem;
-}
-
-#section-value .val-box .dr {
-    font-weight: 600;
-    margin-bottom: 1rem;
 }
 
 
@@ -657,6 +681,7 @@ body {
     padding: 1rem 0 1rem 1rem;
     border-radius: 4px;
     border: none;
+    margin-bottom: 2rem;
 
 
 }
@@ -669,7 +694,7 @@ body {
 #section-contact form textarea {
     margin-bottom: 0.9rem;
     width: 400px;
-    height: 200px;
+    height: 170px;
     padding: 1rem 0 1rem 1rem;
     border-radius: 4px;
     border: none;
@@ -1080,6 +1105,90 @@ body {
         padding: 0;
     }
 
+    /* My Values Section */
+
+    #main-value {
+        background: #002651;
+        color: #fff;
+        position: relative;
+        padding: 4rem 0;
+    }
+
+    #main-value .container {
+        display: flex;
+        justify-content: center;
+        align-items: ;
+
+
+    }
+
+    #main-value img {
+        width: 20%;
+        position: absolute;
+    }
+
+    #main-value .image-1 {
+        position: absolute;
+        top: 50%;
+        left: 77%;
+        z-index: 20;
+        box-shadow: 40px 40px 90px -10px #000;
+    }
+
+    #main-value .image-2 {
+        position: absolute;
+        z-index: 30;
+        top: 20%;
+        left: 68%;
+        box-shadow: 40px 40px 90px -10px #000;
+    }
+
+    #main-value .image-3 {
+        position: absolute;
+        z-index: 40;
+        top: 40%;
+        left: 55%;
+        box-shadow: 40px 40px 90px -10px #000;
+    }
+
+    #main-value .col-1 {
+        padding-right: 25rem;
+    }
+
+    #main-value h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    #main-value .small-line {
+        width: 50px;
+        height: 4px;
+        background-color: var(--red);
+        margin-bottom: 1rem;
+    }
+
+    #main-value .p-1 {
+        font-size: 1rem;
+        line-height: 25px;
+        margin-bottom: 2.5rem;
+    }
+
+    #main-value .b-line div {
+        display: flex;
+        margin: 1rem 0;
+    }
+
+    #main-value .b-line p {
+        margin-left: 0.5rem;
+    }
+
+    #main-value .b-line {
+        margin-bottom: 6rem;
+    }
+
+
     /* Process Section */
 
     #pro-section .ico-box {
@@ -1365,6 +1474,67 @@ body {
         padding: 0;
     }
 
+    /* My Values Section */
+
+    #main-value {
+        background: #002651;
+        color: #fff;
+        position: relative;
+        padding: 4rem 0;
+    }
+
+    #main-value .container {
+        display: flex;
+        justify-content: center;
+        align-items: ;
+
+
+    }
+
+    #main-value img {
+        display: none;
+
+    }
+
+
+    #main-value .col-1 {
+        padding-right: 0;
+    }
+
+    #main-value h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+
+    #main-value .small-line {
+        width: 50px;
+        height: 4px;
+        background-color: var(--red);
+        margin-bottom: 1rem;
+    }
+
+    #main-value .p-1 {
+        font-size: 1rem;
+        line-height: 25px;
+        margin-bottom: 2.5rem;
+    }
+
+    #main-value .b-line div {
+        display: flex;
+        margin: 1rem 0;
+    }
+
+    #main-value .b-line p {
+        margin-left: 0.5rem;
+    }
+
+    #main-value .b-line {
+        margin-bottom: 6rem;
+    }
+
+
     /* Process Section */
 
 
@@ -1476,36 +1646,6 @@ body {
         border-bottom-right-radius: 0;
     }
 
-
-    /* Values */
-
-
-
-    #section-value .header-value h3 {
-        font-size: 2rem;
-        font-weight: 700;
-        margin: 4.5rem 0 1rem 0;
-        text-transform: uppercase;
-    }
-
-
-
-    #section-value .value-main {
-        display: flex;
-        margin: 4rem 0;
-    }
-
-    #section-value .val-list div {
-        display: flex;
-        align-items: center;
-        margin: 1rem 0;
-
-    }
-
-    #section-value .val-img img {
-        width: 90%;
-        display: none;
-    }
 
     /* About me section */
 
@@ -1807,6 +1947,69 @@ body {
     #main-section .banner img {
         width: 90%;
     }
+
+
+    /* My Values Section */
+
+    #main-value {
+        background: #002651;
+        color: #fff;
+        position: unset;
+        padding: 1rem 0;
+    }
+
+    #main-value .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    #main-value img {
+        display: block;
+
+    }
+
+
+    #main-value .col-1 {
+        padding-right: 0;
+    }
+
+    #main-value h1 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #main-value .small-line {
+        width: 50px;
+        height: 4px;
+        background-color: var(--red);
+        margin-bottom: 1.5rem;
+    }
+
+    #main-value .p-1 {
+        font-size: 1rem;
+        line-height: 25px;
+        margin-bottom: 2.5rem;
+    }
+
+    #main-value .b-line div {
+        display: flex;
+        margin: 1rem 0;
+    }
+
+    #main-value .b-line p {
+        margin-left: 0.5rem;
+        line-height: 25px;
+    }
+
+    #main-value .b-line {
+        margin-bottom: 3.5rem;
+    }
+
 
     /* Process Section */
 
