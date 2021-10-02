@@ -891,12 +891,41 @@ body {
 }
 
 /* Portfolio Description Page */
-#big-img-section-1 {
+
+.big-img-section-1 {
     background: #333;
     height: 60vh;
 }
 
-#big-img-section-1 .logo {
+.sage-image {
+    background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
+    background-position: 150% 50%;
+    background-size: 60%;
+    background-color: #333;
+}
+
+.clipboard-image {
+    background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
+    background-position: 150% 50%;
+    background-size: 60%;
+    background-color: #333;
+}
+
+.loop-image {
+    background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
+    background-position: 150% 50%;
+    background-size: 60%;
+    background-color: #333;
+}
+
+.flyo-image {
+    background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
+    background-position: 150% 50%;
+    background-size: 60%;
+    background-color: #333;
+}
+
+.big-img-section-1 .logo {
     color: #fff;
 }
 
@@ -914,24 +943,6 @@ body {
 }
 
 
-
-
-
-.core-img img {
-    width: 100%;
-    object-fit: cover;
-
-
-}
-
-.core-img {
-    width: 1145px;
-    height: auto;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-
-}
 
 
 .img-wrap-1 p {
@@ -1142,12 +1153,41 @@ body {
 
 
     /* Portfolio Description Page */
-    #big-img-section-1 {
+
+    .big-img-section-1 {
         background: #333;
-        height: 75vh;
+        height: 50vh;
     }
 
-    #big-img-section-1 .logo {
+    .sage-image {
+        background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
+        background-position: 150% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .clipboard-image {
+        background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
+        background-position: 150% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .loop-image {
+        background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
+        background-position: 150% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .flyo-image {
+        background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
+        background-position: 150% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .big-img-section-1 .logo {
         color: #fff;
     }
 
@@ -1156,33 +1196,16 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        text-align: left;
         flex-direction: column;
-        margin-bottom: 4rem;
-        margin-left: 8rem;
-        margin-top: 8rem;
+        margin: 0;
+        height: 35vh;
+        margin-left: 9rem;
 
 
     }
 
 
-
-
-
-    .core-img img {
-        width: 100%;
-        object-fit: cover;
-
-
-    }
-
-    .core-img {
-        width: 1120px;
-        height: 600px;
-        position: absolute;
-        top: 0%;
-        left: 55%;
-
-    }
 
 
     .img-wrap-1 p {
@@ -1192,7 +1215,7 @@ body {
     }
 
     .img-wrap-1 h1 {
-        font-size: 3.5rem;
+        font-size: 4rem;
         color: #fff;
         margin-top: 1rem;
         font-weight: 500;
@@ -1284,6 +1307,7 @@ body {
         padding: 0 4rem;
         margin: 4rem 0;
     }
+
 
 
 }
@@ -2138,40 +2162,161 @@ body {
 
 
     /* Portfolio Description Page */
-    #big-img-section-1 {
+
+    .big-img-section-1 {
         background: #333;
         height: 60vh;
     }
 
+    .sage-image {
+        background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
 
+    .clipboard-image {
+        background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .loop-image {
+        background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .flyo-image {
+        background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .big-img-section-1 .logo {
+        color: #fff;
+    }
 
     .img-wrap-1 {
 
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        text-align: left;
         flex-direction: column;
-        margin-bottom: 2rem;
-        margin-left: 8rem;
-        margin-top: 3rem;
+        margin: 0;
+        height: 35vh;
+        margin-left: 9rem;
+
 
     }
 
-    .core-img img {
+
+
+
+    .img-wrap-1 p {
+        font-size: 1rem;
+        color: #fff;
+        margin: 0.1rem 0 1.7rem 0;
+    }
+
+    .img-wrap-1 h1 {
+        font-size: 4rem;
+        color: #fff;
+        margin-top: 1rem;
+        font-weight: 500;
+        z-index: 30;
+
+
+    }
+
+    .btn-g {
+        text-decoration: none;
+        color: #fff;
+        background: var(--blue);
+        padding: 11px 35px;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 4px;
+        display: block;
+        font-size: 14px;
+    }
+
+
+
+    #role .container {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+
+
+    }
+
+    #role {
+        margin: 3rem 0;
+
+
+    }
+
+    #role h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 2rem 0 0.5rem 0;
+
+    }
+
+    #role p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0.5rem 0 2rem 0;
+    }
+
+    #large-img img {
         width: 100%;
-        object-fit: cover;
 
 
     }
 
-    .core-img {
-        width: 660px;
-        height: 600px;
-        position: absolute;
-        top: 0%;
-        left: 60%;
+    #project-dis .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        align-items: center;
+    }
+
+    #project-dis h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 6rem 4rem 6rem 0;
+
 
     }
+
+    #project-dis p {
+        font-weight: 400;
+        line-height: 1.6rem;
+    }
+
+    #large-img-3 .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #large-img-3 {
+        background: #333;
+    }
+
+    #large-img-3 img {
+        padding: 0 4rem;
+        margin: 4rem 0;
+    }
+
 
 }
 
@@ -2479,59 +2624,161 @@ body {
 
     }
 
-    /* portfolio description */
+    /* Portfolio Description Page */
+
+    .big-img-section-1 {
+        background: #333;
+        height: 60vh;
+    }
+
+    .sage-image {
+        background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .clipboard-image {
+        background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .loop-image {
+        background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .flyo-image {
+        background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
+        background-position: 300% 50%;
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .big-img-section-1 .logo {
+        color: #fff;
+    }
 
     .img-wrap-1 {
 
         display: flex;
         justify-content: center;
         align-items: flex-start;
+        text-align: left;
         flex-direction: column;
-        margin-bottom: 2rem;
-        margin-left: 8rem;
-        margin-top: 8rem;
+        margin: 0;
+        height: 35vh;
+        margin-left: 9rem;
+
 
     }
 
 
-    #big-img-section-1 {
-        background: #333;
-        height: 60vh;
+
+
+    .img-wrap-1 p {
+        font-size: 1rem;
+        color: #fff;
+        margin: 0.1rem 0 1.7rem 0;
     }
 
     .img-wrap-1 h1 {
         font-size: 2.5rem;
+        color: #fff;
+        margin-top: 1rem;
+        font-weight: 500;
+        z-index: 30;
+
+
     }
 
-    .img-wrap-1 {
-        margin-left: 6rem;
+    .btn-g {
+        text-decoration: none;
+        color: #fff;
+        background: var(--blue);
+        padding: 11px 35px;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 4px;
+        display: block;
+        font-size: 14px;
     }
 
-    .core-img img {
+
+
+    #role .container {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+
+
+    }
+
+    #role {
+        margin: 3rem 0;
+
+
+    }
+
+    #role h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 2rem 0 0.5rem 0;
+
+    }
+
+    #role p {
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 0.5rem 0 2rem 0;
+    }
+
+    #large-img img {
         width: 100%;
-        object-fit: cover;
 
 
     }
 
-    .core-img {
-        width: 800px;
-        height: auto;
-        position: absolute;
-        top: 0%;
-        left: 40%;
+    #project-dis .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+        align-items: center;
+    }
+
+    #project-dis h3 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 6rem 4rem 6rem 0;
+
 
     }
 
-    .main-nav ul {
+    #project-dis p {
+        font-weight: 400;
+        line-height: 1.6rem;
+    }
+
+    #large-img-3 .container {
         display: flex;
         justify-content: space-around;
-        width: 35%;
         align-items: center;
-        z-index: 100;
     }
 
+    #large-img-3 {
+        background: #333;
+    }
 
+    #large-img-3 img {
+        padding: 0 4rem;
+        margin: 4rem 0;
+    }
 
 
 
@@ -2938,25 +3185,56 @@ body {
 
 
     /* Portfolio Description Page */
-    #big-img-section-1 {
+    .big-img-section-1 {
         background: #333;
-        height: 80vh;
+        height: 30vh;
+
+
     }
 
-    #big-img-section-1 .logo {
+    .big-img-section-1 .logo {
         color: #fff;
+    }
+
+
+
+    .sage-image {
+        background: none;
+
+        background-size: 80%;
+        background-color: #333;
+    }
+
+    .clipboard-image {
+        background: none;
+        background-color: #333;
+    }
+
+    .loop-image {
+        background: none;
+        background-color: #333;
+    }
+
+    .flyo-image {
+        background: none;
+        background-color: #333;
     }
 
     .img-wrap-1 {
 
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         flex-direction: column;
         text-align: center;
-        margin-left: 0;
+        height: auto;
+        margin: 0;
+
 
     }
+
+
+
 
 
 
@@ -3379,7 +3657,7 @@ body {
 
     /* Portfolio Description Page */
 
-    #big-img-section-1 {
+    .big-img-section-1 {
         background: #333;
         height: 40vh;
     }
@@ -3457,9 +3735,9 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-
-        align-items: center;
+        align-items: flex-start;
         text-align: center;
+        text-align: left;
     }
 
     #project-dis h3 {
@@ -3480,4 +3758,37 @@ body {
         margin: 2rem 0;
     }
 
+}
+
+@media screen and (max-width: 375px) {
+    .big-img-section-1 {
+        background: #333;
+        height: 40vh;
+    }
+
+
+    .img-wrap-1 {
+        line-height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        height: auto;
+    }
+
+
+
+    .img-wrap-1 p {
+        font-size: 1rem;
+        color: #fff;
+        margin: 0.7rem 0;
+    }
+
+    .img-wrap-1 h1 {
+        font-size: 2rem;
+        color: #fff;
+        margin-top: 1rem;
+
+    }
 }
