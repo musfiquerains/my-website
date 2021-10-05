@@ -44,6 +44,7 @@ img {
     text-align: center;
     background: url(../img/bg-header-desktop.png) no-repeat;
     background-position: center top;
+    background-size: 100%;
 }
 
 #section-main .container img {
