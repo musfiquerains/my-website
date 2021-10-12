@@ -894,34 +894,34 @@ body {
 
 .big-img-section-1 {
     background: #333;
-    height: 60vh;
+    height: 600px;
 }
 
 .sage-image {
     background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
-    background-position: 150% 50%;
-    background-size: 60%;
+    background-position: 80% 130%;
+    background-size: 45%;
     background-color: #333;
 }
 
 .clipboard-image {
     background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
-    background-position: 150% 50%;
-    background-size: 60%;
+    background-position: 80% 130%;
+    background-size: 45%;
     background-color: #333;
 }
 
 .loop-image {
     background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
-    background-position: 150% 50%;
-    background-size: 60%;
+    background-position: 80% 130%;
+    background-size: 45%;
     background-color: #333;
 }
 
 .flyo-image {
     background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
-    background-position: 150% 50%;
-    background-size: 60%;
+    background-position: 80% 130%;
+    background-size: 45%;
     background-color: #333;
 }
 
@@ -936,8 +936,10 @@ body {
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 4rem;
-    margin-left: 8rem;
+    margin-left: 0;
     margin-top: 8rem;
+    text-align: left;
+
 
 
 }
@@ -948,15 +950,16 @@ body {
 .img-wrap-1 p {
     font-size: 1rem;
     color: #fff;
-    margin: 0.1rem 0 1.7rem 0;
+    margin: 1rem 0;
+    font-weight: 400px;
 }
 
 .img-wrap-1 h1 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: #fff;
     margin-top: 1rem;
     font-weight: 500;
-    z-index: 30;
+
 
 
 }
@@ -969,8 +972,8 @@ body {
     text-align: center;
     font-weight: 600;
     border-radius: 4px;
-    display: block;
-    font-size: 14px;
+    display: inline-block;
+    font-size: 16px;
 }
 
 
@@ -1001,6 +1004,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     margin: 0.5rem 0 2rem 0;
+    color: #727272;
 }
 
 #large-img img {
@@ -1019,6 +1023,10 @@ body {
     border: none;
 }
 
+#project-dis {
+    margin: 6rem 0;
+}
+
 #project-dis .container {
     display: flex;
     flex-direction: row;
@@ -1030,7 +1038,8 @@ body {
 #project-dis h3 {
     font-size: 2rem;
     font-weight: 500;
-    margin: 6rem 4rem 6rem 0;
+    text-align: left;
+    margin: 0 5rem;
 
 
 }
@@ -1038,6 +1047,7 @@ body {
 #project-dis p {
     font-weight: 400;
     line-height: 1.6rem;
+    color: #727272;
 }
 
 #large-img-3 .container {
@@ -1052,8 +1062,67 @@ body {
 
 #large-img-3 img {
     padding: 0 4rem;
-    margin: 4rem 0;
+    margin: 8rem 0;
+
 }
+
+#section-img-2 .container-1 {
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+
+}
+
+#section-img-2 {
+    margin-bottom: 2rem;
+}
+
+#section-img-2 .container-1 h3 {
+    color: #aa96ff;
+    margin-top: 8rem;
+}
+
+#section-img-2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#section-img-2:nth-child(even) .container div:nth-child(odd) {
+    order: 2;
+}
+
+#section-img-2 h3 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+#section-img-2 p {
+    line-height: 25px;
+    color: #727272;
+}
+
+#section-img-2 .c-1 {
+    width: 45%;
+    padding: 0 0rem;
+}
+
+
+#section-img-2 .c-2 {
+    box-shadow: 40px 40px 60px -20px #000;
+    margin: 6rem;
+
+
+}
+
+#section-img-2 .c-2 img {
+    margin: 0;
+    margin-bottom: -1rem;
+}
+
 
 
 
@@ -1164,36 +1233,38 @@ body {
 
     /* Portfolio Description Page */
 
+    /* Portfolio Description Page */
+
     .big-img-section-1 {
         background: #333;
-        height: 50vh;
+        height: 600px;
     }
 
     .sage-image {
         background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 100%;
+        background-size: 45%;
         background-color: #333;
     }
 
     .clipboard-image {
         background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 100%;
+        background-size: 45%;
         background-color: #333;
     }
 
     .loop-image {
         background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 100%;
+        background-size: 45%;
         background-color: #333;
     }
 
     .flyo-image {
         background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 100%;
+        background-size: 45%;
         background-color: #333;
     }
 
@@ -1206,11 +1277,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        text-align: left;
         flex-direction: column;
-        margin: 0;
-        height: 35vh;
-        margin-left: 9rem;
+        margin-bottom: 4rem;
+        margin-left: 0;
+        margin-top: 8rem;
+        text-align: left;
+
 
 
     }
@@ -1221,15 +1293,16 @@ body {
     .img-wrap-1 p {
         font-size: 1rem;
         color: #fff;
-        margin: 0.1rem 0 1.7rem 0;
+        margin: 1rem 0;
+        font-weight: 400px;
     }
 
     .img-wrap-1 h1 {
-        font-size: 4rem;
+        font-size: 2.5rem;
         color: #fff;
         margin-top: 1rem;
         font-weight: 500;
-        z-index: 30;
+
 
 
     }
@@ -1242,8 +1315,8 @@ body {
         text-align: center;
         font-weight: 600;
         border-radius: 4px;
-        display: block;
-        font-size: 14px;
+        display: inline-block;
+        font-size: 16px;
     }
 
 
@@ -1281,6 +1354,15 @@ body {
         object-fit: cover;
         height: 80vh;
 
+
+
+
+    }
+
+    #large-img {
+        margin: -1rem;
+        padding: 0;
+        border: none;
     }
 
     #project-dis .container {
@@ -1294,7 +1376,7 @@ body {
     #project-dis h3 {
         font-size: 2rem;
         font-weight: 500;
-        margin: 6rem 4rem 6rem 0;
+
 
 
     }
@@ -1316,8 +1398,31 @@ body {
 
     #large-img-3 img {
         padding: 0 4rem;
-        margin: 4rem 0;
+
     }
+
+    #section-img-2 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    #section-img-2 h3 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    #section-img-2 .c-1 {
+        width: 60%;
+        padding: 0;
+    }
+
+    #section-img-2 .c-2 {
+        margin: 5rem;
+    }
+
 
 
 
@@ -2174,36 +2279,38 @@ body {
 
     /* Portfolio Description Page */
 
+    /* Portfolio Description Page */
+
     .big-img-section-1 {
         background: #333;
-        height: 60vh;
+        height: 600px;
     }
 
     .sage-image {
         background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 130%;
+        background-size: 45%;
         background-color: #333;
     }
 
     .clipboard-image {
         background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 130%;
+        background-size: 45%;
         background-color: #333;
     }
 
     .loop-image {
         background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 130%;
+        background-size: 45%;
         background-color: #333;
     }
 
     .flyo-image {
         background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 130%;
+        background-size: 45%;
         background-color: #333;
     }
 
@@ -2216,11 +2323,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        text-align: left;
         flex-direction: column;
-        margin: 0;
-        height: 35vh;
-        margin-left: 9rem;
+        margin-bottom: 4rem;
+        margin-left: 0;
+        margin-top: 8rem;
+        text-align: left;
+
 
 
     }
@@ -2231,15 +2339,16 @@ body {
     .img-wrap-1 p {
         font-size: 1rem;
         color: #fff;
-        margin: 0.1rem 0 1.7rem 0;
+        margin: 1rem 0;
+        font-weight: 400px;
     }
 
     .img-wrap-1 h1 {
-        font-size: 4rem;
+        font-size: 2.5rem;
         color: #fff;
         margin-top: 1rem;
         font-weight: 500;
-        z-index: 30;
+
 
 
     }
@@ -2252,8 +2361,8 @@ body {
         text-align: center;
         font-weight: 600;
         border-radius: 4px;
-        display: block;
-        font-size: 14px;
+        display: inline-block;
+        font-size: 16px;
     }
 
 
@@ -2289,7 +2398,7 @@ body {
     #large-img img {
         width: 100%;
         object-fit: cover;
-        height: 600px;
+        height: 80vh;
 
 
 
@@ -2302,8 +2411,6 @@ body {
         border: none;
     }
 
-
-
     #project-dis .container {
         display: flex;
         flex-direction: row;
@@ -2315,7 +2422,7 @@ body {
     #project-dis h3 {
         font-size: 2rem;
         font-weight: 500;
-        margin: 6rem 4rem 6rem 0;
+
 
 
     }
@@ -2337,8 +2444,37 @@ body {
 
     #large-img-3 img {
         padding: 0 4rem;
-        margin: 4rem 0;
+
     }
+
+    #section-img-2 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    #section-img-2 h3 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    #section-img-2 p {
+        line-height: 25px;
+    }
+
+    #section-img-2 .c-1 {
+        width: 60%;
+
+    }
+
+    #section-img-2 {
+        margin-bottom: 3rem;
+    }
+
+
+
 
 
 }
@@ -2651,34 +2787,34 @@ body {
 
     .big-img-section-1 {
         background: #333;
-        height: 60vh;
+        height: 600px;
     }
 
     .sage-image {
         background: url('../img/portfolio-img/Sage -1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 110%;
+        background-size: 60%;
         background-color: #333;
     }
 
     .clipboard-image {
         background: url('../img/portfolio-img/clipboard main1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 110%;
+        background-size: 60%;
         background-color: #333;
     }
 
     .loop-image {
         background: url('../img/portfolio-img/loop-41.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 110%;
+        background-size: 60%;
         background-color: #333;
     }
 
     .flyo-image {
         background: url('../img/portfolio-img/flyo-d1.png')no-repeat right / cover;
-        background-position: 300% 50%;
-        background-size: 80%;
+        background-position: 80% 110%;
+        background-size: 60%;
         background-color: #333;
     }
 
@@ -2691,11 +2827,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        text-align: left;
         flex-direction: column;
-        margin: 0;
-        height: 35vh;
-        margin-left: 9rem;
+        margin-bottom: 4rem;
+        margin-left: 0;
+        margin-top: 8rem;
+        text-align: left;
+
 
 
     }
@@ -2706,7 +2843,8 @@ body {
     .img-wrap-1 p {
         font-size: 1rem;
         color: #fff;
-        margin: 0.1rem 0 1.7rem 0;
+        margin: 1rem 0;
+        font-weight: 400px;
     }
 
     .img-wrap-1 h1 {
@@ -2714,7 +2852,7 @@ body {
         color: #fff;
         margin-top: 1rem;
         font-weight: 500;
-        z-index: 30;
+
 
 
     }
@@ -2727,8 +2865,8 @@ body {
         text-align: center;
         font-weight: 600;
         border-radius: 4px;
-        display: block;
-        font-size: 14px;
+        display: inline-block;
+        font-size: 16px;
     }
 
 
@@ -2764,8 +2902,17 @@ body {
     #large-img img {
         width: 100%;
         object-fit: cover;
-        height: 70vh;
+        height: 80vh;
 
+
+
+
+    }
+
+    #large-img {
+        margin: -1rem;
+        padding: 0;
+        border: none;
     }
 
     #project-dis .container {
@@ -2774,12 +2921,13 @@ body {
         justify-content: space-around;
         width: 80%;
         align-items: center;
+        margin: 0 auto;
     }
 
     #project-dis h3 {
         font-size: 2rem;
         font-weight: 500;
-        margin: 6rem 4rem 6rem 0;
+        margin: 1rem 3;
 
 
     }
@@ -2801,9 +2949,30 @@ body {
 
     #large-img-3 img {
         padding: 0 4rem;
-        margin: 4rem 0;
+
     }
 
+    #section-img-2 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    #section-img-2 h3 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    #section-img-2 p {
+        line-height: 25px;
+    }
+
+    #section-img-2 .c-1 {
+        width: 90%;
+        padding: 0;
+    }
 
 
 }
@@ -3211,7 +3380,7 @@ body {
     /* Portfolio Description Page */
     .big-img-section-1 {
         background: #333;
-        height: 30vh;
+        height: 300px;
 
 
     }
@@ -3308,7 +3477,7 @@ body {
         justify-content: space-around;
         width: 90%;
         align-items: center;
-        padding: 3rem;
+        padding: 0rem;
     }
 
     #project-dis h3 {
@@ -3331,13 +3500,35 @@ body {
 
     #large-img-3 img {
         padding: 0 1rem;
-        margin: 4rem 0;
+
     }
 
 
     .core-img {
         display: none;
 
+    }
+
+    #section-img-2 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 4rem auto;
+        flex-direction: column;
+    }
+
+    #section-img-2 .c-1 {
+        margin-bottom: 2rem;
+        padding: 0;
+    }
+
+    #section-img-2 .container-1 {
+        text-align: center;
+    }
+
+    #section-img-2:nth-child(even) .container div:nth-child(odd) {
+        order: 1;
     }
 
 
@@ -3721,6 +3912,7 @@ body {
         border-radius: 6px;
         display: block;
         font-size: 14px;
+        display: inline-block;
     }
 
     #role .container {
@@ -3771,6 +3963,11 @@ body {
         align-items: flex-start;
         text-align: center;
         text-align: left;
+        margin: 0 auto;
+    }
+
+    #project-dis {
+        margin: 4rem 0;
     }
 
     #project-dis h3 {
@@ -3789,6 +3986,15 @@ body {
     #large-img-3 img {
         padding: 0 1rem;
         margin: 2rem 0;
+    }
+
+    #section-img-2 .c-1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    #section-img-2 .c-1 h3 {
+        margin: 1rem;
     }
 
 }
@@ -3884,6 +4090,21 @@ body {
         align-items: center;
 
     }
+
+    #section-img-2 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #section-img-2 .c-2 {
+        margin: 2rem 0;
+        box-shadow: none;
+    }
+
+
 
 
 }
