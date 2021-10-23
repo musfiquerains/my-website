@@ -215,8 +215,8 @@ body {
 /* My Values Section */
 
 #main-value {
-    background: #002651;
-    color: #fff;
+    background: #fff;
+    color: #000;
     position: relative;
     padding: 8rem 0;
 }
@@ -1009,16 +1009,26 @@ body {
 
 #large-img img {
     width: 100%;
-    height: 100vh;
+    height: auto;
     object-fit: cover;
 
 
 }
 
+#mid-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+
+
+}
+
+
 #large-img {
-    margin: -1rem;
+    margin: 0;
     padding: 0;
     border: none;
+
 }
 
 #project-dis {
@@ -1028,8 +1038,8 @@ body {
 #project-dis .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
+    justify-content: space-between;
+    width: 60%;
     align-items: center;
 }
 
@@ -1037,14 +1047,23 @@ body {
     font-size: 2rem;
     font-weight: 500;
     text-align: left;
-    margin: 0 5rem;
+
 
 
 }
 
+#project-dis .sub-head {
+    margin: 2rem;
+}
+
+#project-dis .sub-pra {
+    max-width: 60%;
+}
+
+
 #project-dis p {
     font-weight: 400;
-    line-height: 1.6rem;
+    line-height: 30px;
     color: #727272;
 }
 
@@ -1099,19 +1118,22 @@ body {
 }
 
 #section-img-2 p {
-    line-height: 25px;
+    line-height: 28px;
     color: #727272;
+
 }
 
 #section-img-2 .c-1 {
-    width: 45%;
-    padding: 0 0rem;
+    width: 50%;
+    padding-right: 5rem;
 }
 
 
 #section-img-2 .c-2 {
-    box-shadow: 40px 40px 60px -20px #000;
-    margin: 6rem;
+    box-shadow: 0px 0px 50px -10px #000;
+    margin: 3.5rem;
+    margin-bottom: 5rem;
+
 
 
 }
@@ -1133,6 +1155,42 @@ body {
 
 
 @media screen and (max-width: 1440px) {
+
+    /* My Values Section */
+
+    #main-value {
+        background: #fff;
+        color: #000;
+        position: relative;
+        padding: 6rem 0;
+    }
+
+
+    #main-value .image-1 {
+        position: absolute;
+        z-index: 20;
+        top: 50%;
+        left: 72%;
+        box-shadow: 40px 40px 90px -10px #000;
+    }
+
+    #main-value .image-2 {
+        position: absolute;
+        z-index: 30;
+        top: 20%;
+        left: 68%;
+        box-shadow: 40px 40px 90px -10px #000;
+    }
+
+    #main-value .image-3 {
+        position: absolute;
+        z-index: 40;
+        top: 35%;
+        left: 51%;
+        box-shadow: 40px 40px 90px -10px #000;
+    }
+
+
 
     /* Portfolio Section */
     #port-section {
@@ -1229,7 +1287,6 @@ body {
     }
 
 
-    /* Portfolio Description Page */
 
     /* Portfolio Description Page */
 
@@ -1354,7 +1411,7 @@ body {
     }
 
     #large-img {
-        margin: -1rem;
+
         padding: 0;
         border: none;
     }
@@ -1362,22 +1419,26 @@ body {
     #project-dis .container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-        width: 80%;
+        justify-content: space-between;
+        width: 60%;
         align-items: center;
     }
 
     #project-dis h3 {
         font-size: 2rem;
         font-weight: 500;
+        text-align: left;
 
 
 
     }
 
-    #project-dis p {
-        font-weight: 400;
-        line-height: 1.6rem;
+    #project-dis .sub-head {
+        margin: 1rem;
+    }
+
+    #project-dis .sub-pra {
+        max-width: 55%;
     }
 
     #large-img-3 .container {
@@ -1409,12 +1470,14 @@ body {
     }
 
     #section-img-2 .c-1 {
-        width: 60%;
+        width: 70%;
         padding: 0;
     }
 
     #section-img-2 .c-2 {
-        margin: 5rem;
+        margin: 3rem;
+        margin-bottom: 5rem;
+
     }
 
 
@@ -1596,28 +1659,17 @@ body {
     /* My Values Section */
 
     #main-value {
-        background: #002651;
-        color: #fff;
+        background: #fff;
+        color: #000;
         position: relative;
         padding: 4rem 0;
     }
 
-    #main-value .container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
 
-
-    }
-
-    #main-value img {
-        width: 20%;
-        position: absolute;
-    }
 
     #main-value .image-1 {
         position: absolute;
-        top: 55%;
+        top: 52%;
         left: 74%;
         z-index: 20;
         box-shadow: 40px 40px 90px -10px #000;
@@ -1639,43 +1691,6 @@ body {
         box-shadow: 40px 40px 90px -10px #000;
     }
 
-    #main-value .col-1 {
-        padding: 0;
-        max-width: 40%;
-    }
-
-    #main-value h1 {
-        font-size: 1.8rem;
-        font-weight: 600;
-        margin-top: 6rem;
-        margin-bottom: 1rem;
-    }
-
-    #main-value .small-line {
-        width: 50px;
-        height: 4px;
-        background-color: var(--red);
-        margin-bottom: 1rem;
-    }
-
-    #main-value .p-1 {
-        font-size: 1rem;
-        line-height: 25px;
-        margin-bottom: 2.5rem;
-    }
-
-    #main-value .b-line div {
-        display: flex;
-        margin: 1rem 0;
-    }
-
-    #main-value .b-line p {
-        margin-left: 0.5rem;
-    }
-
-    #main-value .b-line {
-        margin-bottom: 6rem;
-    }
 
 
     /* Process Section */
@@ -2400,7 +2415,7 @@ body {
     }
 
     #large-img {
-        margin: -1rem;
+
         padding: 0;
         border: none;
     }
@@ -2408,7 +2423,7 @@ body {
     #project-dis .container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 80%;
         align-items: center;
     }
@@ -2416,14 +2431,19 @@ body {
     #project-dis h3 {
         font-size: 2rem;
         font-weight: 500;
+        text-align: left;
+
 
 
 
     }
 
-    #project-dis p {
-        font-weight: 400;
-        line-height: 1.6rem;
+    #project-dis .sub-head {
+        margin: 3rem;
+    }
+
+    #project-dis .sub-pra {
+        max-width: 60%;
     }
 
     #large-img-3 .container {
@@ -2455,11 +2475,21 @@ body {
     }
 
     #section-img-2 p {
-        line-height: 25px;
+        line-height: 28px;
     }
 
     #section-img-2 .c-1 {
-        width: 60%;
+        width: 80%;
+        padding-right: 2rem;
+
+    }
+
+    #section-img-2 .c-2 {
+        box-shadow: 0px 0px 60px -5px #000;
+        margin: 3.5rem;
+        margin-bottom: 5rem;
+
+
 
     }
 
@@ -2543,28 +2573,18 @@ body {
     /* My Values Section */
 
     #main-value {
-        background: #002651;
-        color: #fff;
+        background: #fff;
+        color: #000;
         position: relative;
         padding: 2rem 0;
     }
 
-    #main-value .container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
 
 
-    }
-
-    #main-value img {
-        width: 20%;
-        position: absolute;
-    }
 
     #main-value .image-1 {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 77%;
         z-index: 20;
         box-shadow: 40px 40px 90px -10px #000;
@@ -2573,7 +2593,7 @@ body {
     #main-value .image-2 {
         position: absolute;
         z-index: 30;
-        top: 20%;
+        top: 22%;
         left: 68%;
         box-shadow: 40px 40px 90px -10px #000;
     }
@@ -2588,26 +2608,14 @@ body {
 
     #main-value .col-1 {
         padding: 0;
-        max-width: 40%;
+        max-width: 50%;
     }
 
-    #main-value h1 {
-        font-size: 1.8rem;
-        font-weight: 600;
-        margin-top: 6rem;
-        margin-bottom: 1rem;
-    }
 
-    #main-value .small-line {
-        width: 50px;
-        height: 4px;
-        background-color: var(--red);
-        margin-bottom: 1rem;
-    }
 
     #main-value .p-1 {
         font-size: 1rem;
-        line-height: 25px;
+        line-height: 28px;
         margin-bottom: 2.5rem;
     }
 
@@ -2618,6 +2626,7 @@ body {
 
     #main-value .b-line p {
         margin-left: 0.5rem;
+        line-height: 28px;
     }
 
     #main-value .b-line {
@@ -2903,6 +2912,14 @@ body {
 
     }
 
+    #mid-img img {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+
+
+    }
+
     #large-img {
         margin: -1rem;
         padding: 0;
@@ -2912,23 +2929,26 @@ body {
     #project-dis .container {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 80%;
         align-items: center;
-        margin: 0 auto;
     }
 
     #project-dis h3 {
         font-size: 2rem;
         font-weight: 500;
-        margin: 1rem 3;
+        text-align: left;
+
 
 
     }
 
-    #project-dis p {
-        font-weight: 400;
-        line-height: 1.6rem;
+    #project-dis .sub-head {
+        margin: 1rem;
+    }
+
+    #project-dis .sub-pra {
+        max-width: 60%;
     }
 
     #large-img-3 .container {
@@ -2946,6 +2966,8 @@ body {
 
     }
 
+
+
     #section-img-2 .container {
         display: flex;
         justify-content: center;
@@ -2960,13 +2982,14 @@ body {
     }
 
     #section-img-2 p {
-        line-height: 25px;
+        line-height: 28px;
     }
 
     #section-img-2 .c-1 {
         width: 90%;
         padding: 0;
     }
+
 
 
 }
@@ -3522,7 +3545,7 @@ body {
     }
 
     #section-img-2:nth-child(even) .container div:nth-child(odd) {
-        order: 1;
+        order: unset;
     }
 
 
@@ -3945,7 +3968,7 @@ body {
 
 
     #large-img {
-        margin: -1rem 0;
+
         padding: 0;
         border: none;
     }
@@ -3967,13 +3990,20 @@ body {
     #project-dis h3 {
         font-size: 2rem;
         font-weight: 500;
-        margin: 2rem 0rem 2rem 0;
-
-        line-height: 2.5rem;
+        line-height: 28px;
+        margin: 1.5rem 0;
     }
 
     #project-dis p {
         margin-bottom: 2rem;
+    }
+
+    #project-dis .sub-head {
+        margin: 0;
+    }
+
+    #project-dis .sub-pra {
+        max-width: 100%;
     }
 
 
