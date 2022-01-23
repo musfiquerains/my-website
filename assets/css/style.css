@@ -304,7 +304,7 @@ body {
 /* Process Section */
 
 
-#pro-section .pro-header {
+/*#pro-section .pro-header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -361,7 +361,7 @@ body {
 
 #pro-section {
     margin-bottom: 1.5rem;
-}
+}*/
 
 /* Process Section */
 
@@ -403,18 +403,18 @@ body {
 
 #pro-section .icon-section {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     grid-gap: 100px;
     text-align: center;
-    padding: 1rem 0;
-    text-align: left;
+    padding: 3rem 0;
+    text-align: center;
 
 
 }
 
 
 #pro-section .ico-box img {
-    width: 20%;
+    width: 40%;
 }
 
 #pro-section .ico-box h4 {
@@ -480,7 +480,7 @@ body {
 
 #section-work .box {
     padding: 1rem 5rem;
-    text-align: left;
+    text-align: center;
 }
 
 #section-work .box h4 {
@@ -1365,6 +1365,11 @@ body {
         border-bottom-right-radius: 10px;
     }
 
+    #pro-section .icon-section {
+        grid-gap: 20px;
+        padding: 4rem 0;
+    }
+
 
 
     /* Portfolio Description Page */
@@ -1718,18 +1723,18 @@ body {
 
     #pro-section .icon-section {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap: 100px;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 10px;
         text-align: center;
-        padding: 1rem 0;
-        text-align: left;
+        padding: 3rem 0;
+        text-align: center;
 
 
     }
 
 
     #pro-section .ico-box img {
-        width: 20%;
+        width: 30%;
     }
 
     #pro-section .ico-box h4 {
@@ -1795,7 +1800,7 @@ body {
 
     #section-work .box {
         padding: 1rem 2rem;
-        text-align: left;
+        text-align: center;
     }
 
     #section-work .box h4 {
@@ -2717,8 +2722,9 @@ body {
 
     #section-work .box {
         padding: 1rem 2rem;
-        text-align: left;
+        text-align: center;
     }
+
 
     #section-work .box h4 {
         font-size: 1.3rem;
@@ -2959,6 +2965,7 @@ body {
 
 
 
+
 }
 
 
@@ -3117,9 +3124,10 @@ body {
 
     #pro-section .icon-section {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
         text-align: center;
+
         margin: 4rem 0;
 
 
@@ -3127,7 +3135,7 @@ body {
 
 
     #pro-section .ico-box img {
-        width: 50%;
+        width: 30%;
     }
 
 
@@ -3138,9 +3146,7 @@ body {
     }
 
 
-    #pro-section .ico-box img {
-        width: 50%;
-    }
+
 
     #pro-section .ico-box h4 {
         font-size: 1.4rem;
